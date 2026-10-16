@@ -5,11 +5,6 @@ categorias_con_stock = set()
 def registrar_producto():
     codigo = input('codigo del producto: ')
     nombre = input("nombre del producto: ")
-    print("categorias:", categorias)
-    categoria = input('categoria: ')
-    precio = float(input("precio: "))
-    stock = int(input('stock: '))
-
     producto = {
       "codigo":codigo,
         "nombre": nombre,
